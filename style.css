@@ -1,0 +1,54 @@
+body {
+    background-color: honeydew;
+}
+
+h1 {
+    color: slategray;
+    text-align: center;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 56px;
+}
+
+h2 {
+    color: slategray;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+h4 {
+    color: slategray;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+p {
+    color: lightslategray;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 12px;
+}
+
+li {
+    color:lightslategray;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size:13.5px;
+}
+
+a {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color:lightslategray;
+    font-size: 11.5px;
+}
+
+.name {
+    font-weight:100;
+}
+
+#img {
+    width:300px;
+    length:300px;
+    image-orientation: center;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
