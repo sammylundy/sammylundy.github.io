@@ -7,17 +7,15 @@
 <title>Samantha Lundy</title>
 </head>
 <body>
-    <div class="dropdown">
-   <button class="btn"><i class="fa fa-bars"></i></button>
-  <div class="dropdown-content">
-    <a href = "index.html">Home</a>
-    <a href="AboutMe.html">About Me</a>
-    <a href="Education.html">Education</a>
-    <a href="worksamples.html">Work Samples</a>
-    <a href="Achievements.html">Achievements</a>
-    <a href="ContactMe.html">Contact Me</a>
-  </div>
-</div>
+    <ul>
+      <li><a class="active" href ="index.html">Home</a></li>
+      <li><a href="AboutMe.html">About Me</a></li>
+      <li><a href="Education.html">Education</a></li>
+      <li><a href="worksamples.html">Work Samples</a></li>
+      <li><a href="Achievements.html">Achievements</a></li>
+      <li><a href="ContactMe.html">Contact Me</a></li>
+      <li><a href="Usability.html">Web Accessibility</a></li>
+   </ul>
     <canvas id="myCanvas" width="260" height="100">
       Your browser does not support the HTML5 canvas tag.
    </canvas>
@@ -25,14 +23,14 @@
   <script>
     var c = document.getElementById("myCanvas");
     var ctx = c.getContext("2d");
-    ctx.font = "35px cursive";
-    ctx.fillStyle = "slategray"
-    ctx.fillText("Work Samples",55,75);
+    ctx.font = "35px sans-serif";
+    ctx.fillStyle = "#34515E"
+    ctx.fillText("Work Samples",20,75);
   </script>
       <p>Underwater Racing Game created in Scratch.mit for COP 1500</p>
         <a href= "https://scratch.mit.edu/projects/243587065"><p>Click Here to View</p></a>
     <p>Fields Report for COP 1500</p>
       <p>View the PDF below for my research about different technology career fields.</p>
-        <a href= "/folder/Fieldsreport.pdf"><p>Fields Report</p></a>
+        <a href= "Fieldsreport.pdf"><p>Fields Report</p></a>
 </body>
 </html>
