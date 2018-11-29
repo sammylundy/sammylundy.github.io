@@ -7,17 +7,15 @@
 <title>Samantha Lundy</title>
 </head>
 <body>
-  <div class="dropdown">
-   <button class="btn"><i class="fa fa-bars"></i></button>
-  <div class="dropdown-content">
-    <a href = "index.html">Home</a>
-    <a href="AboutMe.html">About Me</a>
-    <a href="Education.html">Education</a>
-    <a href="worksamples.html">Work Samples</a>
-    <a href="Achievements.html">Achievements</a>
-    <a href="ContactMe.html">Contact Me</a>
-  </div>
-</div>
+  <ul>
+      <li><a class="active" href ="index.html">Home</a></li>
+      <li><a href="AboutMe.html">About Me</a></li>
+      <li><a href="Education.html">Education</a></li>
+      <li><a href="worksamples.html">Work Samples</a></li>
+      <li><a href="Achievements.html">Achievements</a></li>
+      <li><a href="ContactMe.html">Contact Me</a></li>
+      <li><a href="Usability.html">Web Accessibility</a></li>
+   </ul>
    <canvas id="myCanvas" width="200" height="100">
       Your browser does not support the HTML5 canvas tag.
    </canvas>
@@ -25,14 +23,28 @@
   <script>
     var c = document.getElementById("myCanvas");
     var ctx = c.getContext("2d");
-    ctx.font = "35px cursive";
-    ctx.fillStyle = "slategray"
-    ctx.fillText("About Me",50,60);
+    ctx.font = "35px sans-serif";
+    ctx.fillStyle = "#34515E"
+    ctx.fillText("About Me",30,60);
   </script>
     
       <p>I'm originally from St. Petersburg, FL and I moved to Fort Myers in Fall 2017 for college. I'm currently a sophomore at Florida Gulf Coast University pursuing a Bachelors of Science in Mathematics with a minor in Computer Science. I hope to one day use my degree to help develop and design websites. I'm very interested in responsive web design. In fall 2017, I was accepted into the Honors College at FGCU and the resources its provided me with help me strive for success in my coursework.  
       <p>My involvement on campus includes being a member of Kappa Delta Sorority and a member of the mental health awareness club Breathe. Kappa Delta provides me with opportunities to volunteer within my community. We work for hands-on to mentor the Girl Scouts of America and fundraise for the PCAA. </p>
+      <p>I currently am employed by Florida Gulf Coast University at the Center of Academic Achievement and the Hartley Academic Center as a tutor for higher level math. I work with all student at the Center of Academic Achievement and with FGCU athletes at the Hartley Academic Center. I find this work very rewarding and it helps reinforce the knowledge I gain in my courses. </p>
       <p>In my free time, I like to hike, camp, practice yoga and spend time outdoors. I love camping and backpacking. I hope to hike the Appalachin Trail one day. My favorite campsite is Pisgah National Forest and Desoto Falls. My other goal is to become a certified yoga teacher with hope of becoming a teacher somehwere in my community.</p>
+    
+    <div class="row">
+  <div class="column topbox-a sidemargins-a">
+    <video id="waterfall" class="round" width="320" height="240" controls>
+  <source src="desotofalls.webm" type="video/webm">
+  <source src="desotofalls.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+  </video>
+  </div>
+  <div class="column topbox-a sidemargins-a">
+    <img id="KD" src="KaydeeBidDay2018.jpg" alt="Kappa Delta Sorority Group Photo"  class="round">
+  </div> 
+</div>
 </body>
 </html>
 
