@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+  <html lang=en>
+      
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset=utf-8>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Samantha Lundy</title>
+</head>
+      
+<body>
+<!--This page is called Encoded Message. It includes a cipher.--> 
+ <ul>
+    <li><a class="active" href ="index.html">Home</a></li>
+    <li><a href="AboutMe.html">About Me</a></li>
+    <li><a href="Education.html">Education</a></li>
+    <li><a href="worksamples.html">Work Samples</a></li>
+    <li><a href="Achievements.html">Achievements</a></li>
+    <li><a href="ContactMe.html">Contact Me</a></li>
+    <li><a href="Usability.html">Web Accessibility</a></li>
+    <li><a href= "caesercipher.html">Encoded Message</a></li>
+  </ul>
+    
+<h3>JavaScript Example</h3>
+  <p>Try to Decipher the Encrypted Message!</p>
+
+<p id="output"></p> 
+<script> // caeser chipher //
+  var message = "Hey" // the message to encrypt//
+  var position = 0;
+  var asciiCode;
+  var shiftedAsciiCode;
+  var encryptedMessage = "";
+  var count = 0;
+  var timesToExecute = 3;
+    
+ while (count < timesToExecute) {
+  asciiCode = message.charCodeAt(position);//gets code for first letter//
+  shiftedAsciiCode = asciiCode + 3;
+  encryptedMessage = encryptedMessage + String.fromCharCode(shiftedAsciiCode);
+  position = position + 1;
+  count = count + 1;
+ }
+  document.getElementById("output").innerHTML = encryptedMessage;
+</script>
+
+</body>
+      
+</html>
